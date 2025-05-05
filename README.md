@@ -10,6 +10,11 @@
 
 --> Go to AppData\Roaming\Floorp\Profiles\your-release\chrome > userChrome.css > Paste the following code:
 
+/* Custom sidebar icon for Syncthing Web UI */
+.webpanel-icon[tooltiptext*="127.0.0.1:8384"] {
+  --BMSIcon: url("http://127.0.0.1:8384/assets/img/favicon-default.png") !important;
+}
+
 /* Custom sidebar icon for Google Translate */
 .webpanel-icon[tooltiptext*="translate.google.com"] {
   --BMSIcon: url("https://github.com/Myst1cX/floorp-custom-icons/raw/refs/heads/main/GoogleTranslate.ico") !important;
