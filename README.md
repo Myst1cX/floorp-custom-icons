@@ -1,9 +1,13 @@
 ## CUSTOM ICONS 
 
 1. Custom Floorp Browser Icon (available in both original PNG and converted ICO file)
+   
 --> Use ResourceHacker to apply the Custom Floorp Browser Icon (https://www.wikihow.com/Change-the-Icon-for-an-Exe-File)
    
-2. Custom Sidebar Icons (Google Translate, ChatGPT, Github)
+2. Custom Sidebar Icons to fix a few side panel icons that Floorp did not load correctly (Google Translate, ChatGPT, Github)
+
+--> about:preferences#bSB > Use Icon Provider (DuckDuckGo)
+
 --> Go to AppData\Roaming\Floorp\Profiles\your-release\chrome > userChrome.css > Paste the following code:
 
 /* Custom sidebar icon for Google Translate */
